@@ -15,3 +15,6 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+
+# Add luci-app-xray
+git clone https://github.com/yichya/luci-app-xray.git package/luci-app-xray
